@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-color: #762009; /* Dark red color */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.header-title h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.header-cart .cart-button {
+  background-color: #3f1200; /* Darker red for the button */
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.header-cart .cart-button:hover {
+  background-color: #A52A2A; /* Slightly lighter red on hover */
+  transform: translateY(-2px);
+}
+
+.cart-icon {
+  margin-right: 8px;
+}
+
+.cart-text {
+  margin-right: 8px;
+}
+
+.cart-count {
+  background-color: #ff6347; /* Tomato color for the cart count */
+  border-radius: 12px;
+  padding: 2px 8px;
+  margin-left: 8px;
+}
+
+.header-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
