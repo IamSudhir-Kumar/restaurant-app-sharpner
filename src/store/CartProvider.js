@@ -5,6 +5,7 @@ import CartContext from "./cart-context";
 const defaultCartState = {
   items: [],
   totalAmount: 0,
+
 };
 
 const cartReducer = (state, action) => {
@@ -76,7 +77,7 @@ const CartProvider = (props) => {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
     addItem: addItemToCartHandler,
-    removeItem: removeItemFromCartHandler,
+    removeItem: removeItemFromCartHandler,  
   };
 
   return (
